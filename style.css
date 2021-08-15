@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: square;
+  animation-duration: 4s;
+}
+
+@keyframes square {
+  from {background-color:red}
+  to {background-color: blue}
+}
+
